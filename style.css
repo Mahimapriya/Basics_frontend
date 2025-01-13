@@ -1,0 +1,67 @@
+/* Add these styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(150deg, purple, pink); /* Move the gradient to the body */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(244, 226, 245, 0.9);
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional for a better look */
+}
+
+.image {
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 10px; /* Center the image inside the content */
+}
+
+h1 {
+    color: #333;
+    margin: 10px 0;
+}
+
+p {
+    color: #111;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+button {
+    padding: 8px;
+    background-color: rgb(204, 0, 204);
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
